@@ -68,7 +68,7 @@ graph LR
 
 ---
 
-## **Realizar Cadastro**
+## **UC2 - Realizar Cadastro**
 | **Campo** | **Descrição** |
 |-----------|---------------|
 | **Ator Principal** | Eleitor |
@@ -79,7 +79,7 @@ graph LR
 | **Fluxos Alternativos** | a|
 
 ---
-## **UC2 - Configurar Eleição**
+## **UC3 - Configurar Eleição**
 
 | **Campo** | **Descrição** |
 |-----------|---------------|
@@ -94,7 +94,7 @@ graph LR
 
 ---
 
-## **UC3 - Gerenciar Candidatos**
+## **UC4 - Gerenciar Candidatos**
 
 | **Campo** | **Descrição** |
 |-----------|---------------|
@@ -109,7 +109,7 @@ graph LR
 
 ---
 
-## **UC4 - Gerenciar Eleitores**
+## **UC5 - Gerenciar Eleitores**
 
 | **Campo** | **Descrição** |
 |-----------|---------------|
@@ -124,11 +124,7 @@ graph LR
 
 ---
 
-
-
-
-
-## **UC7 - Apurar Resultados**
+## **UC6 - Apurar Resultados**
 
 | **Campo** | **Descrição** |
 |-----------|---------------|
@@ -143,7 +139,7 @@ graph LR
 
 ---
 
-## **UC8 - Exportar Relatórios Relatórios**
+## **UC7 - Exportar Relatórios Relatórios**
 
 | **Campo** | **Descrição** |
 |-----------|---------------|

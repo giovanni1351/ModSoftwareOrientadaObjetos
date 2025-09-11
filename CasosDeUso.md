@@ -75,8 +75,10 @@ graph LR
 | **Objetivo** | Cadastrar para poder realizar a votação|
 | **Pré-condições** | Usuario não cadastrado ainda|
 | **Pós-condições** | É enviado para um administrador aceitar o cadastro|
-| **Fluxo Principal** |a |
-| **Fluxos Alternativos** | a|
+| **Fluxo Principal** | **1.** Administrador acessa módulo de configuração<br/>**2.** Sistema apresenta formulário de eleição<br/>**3.** Administrador informa dados básicos:<br/>&nbsp;&nbsp;&nbsp;&nbsp;• Nome da eleição<br/>&nbsp;&nbsp;&nbsp;&nbsp;• Data e horário de início/fim<br/>&nbsp;&nbsp;&nbsp;&nbsp;• Tipo de eleição<br/>**4.** Administrador define cargos em disputa (até 8)<br/>**5.** Para cada cargo:<br/>&nbsp;&nbsp;&nbsp;&nbsp;**5.1** Define nome do cargo<br/>&nbsp;&nbsp;&nbsp;&nbsp;**5.2** Define número de vagas<br/>&nbsp;&nbsp;&nbsp;&nbsp;**5.3** Define regras específicas<br/>**6.** Administrador confirma configuração<br/>**7.** Sistema valida dados informados<br/>**8.** Sistema salva configuração<br/>**9.** Sistema confirma criação da eleição |
+| **Fluxos Alternativos** | **FA1 - Dados inválidos (passo 7):**<br/>&nbsp;&nbsp;&nbsp;&nbsp;**7.1** Sistema exibe erros de validação<br/>&nbsp;&nbsp;&nbsp;&nbsp;**7.2** Retorna ao passo 3 |
+| **Fluxos de Exceção** | **FE1 - Limite de cargos excedido:**<br/>&nbsp;&nbsp;&nbsp;&nbsp;Sistema impede cadastro do 9º cargo |
+| **Regras de Negócio** | • RN5: Máximo 8 cargos por eleição<br/>• RN6: Data de início deve ser futura<br/>• RN7: Data fim deve ser posterior ao início |
 
 ---
 ## **UC3 - Configurar Eleição**

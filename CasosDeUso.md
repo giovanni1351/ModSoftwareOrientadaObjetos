@@ -132,14 +132,14 @@ graph LR
 | **Objetivo** | Consolidar votos de todas as UEv e calcular resultados |
 | **Pré-condições** | • Votação encerrada<br/>• UEv transmitiram resultados |
 | **Pós-condições** | • Resultados consolidados<br/>• Vencedores identificados por cargo |
-| **Fluxo Principal** | **1.** Administrador inicia processo de apuração<br/>**2.** Sistema verifica se todas as UEv transmitiram<br/>**3.** Sistema consolida votos por cargo:<br/>&nbsp;&nbsp;&nbsp;&nbsp;**3.1** Soma votos de cada candidato<br/>&nbsp;&nbsp;&nbsp;&nbsp;**3.2** Contabiliza votos brancos e nulos<br/>&nbsp;&nbsp;&nbsp;&nbsp;**3.3** Calcula percentuais<br/>**4.** Sistema identifica vencedores por cargo<br/>**5.** Sistema gera relatório de apuração<br/>**6.** Administrador valida resultados<br/>**7.** Sistema finaliza apuração<br/>**8.** Sistema disponibiliza resultados oficiais |
-| **Fluxos Alternativos** | **FA1 - UEv pendente (passo 2):**<br/>&nbsp;&nbsp;&nbsp;&nbsp;**2.1** Sistema lista UEv que não transmitiram<br/>&nbsp;&nbsp;&nbsp;&nbsp;**2.2** Administrador decide se prossegue<br/>&nbsp;&nbsp;&nbsp;&nbsp;**2.3** Se sim, continua no passo 3 |
+| **Fluxo Principal** | **1.** Administrador inicia processo de apuração<br/>**2.** Sistema verifica se todas as UEv transmitiram resultados<br/>**3.** Sistema consolida votos por cargo:<br/>&nbsp;&nbsp;&nbsp;&nbsp;**3.1** Soma votos de cada candidato<br/>&nbsp;&nbsp;&nbsp;&nbsp;**3.2** Contabiliza votos brancos e nulos<br/>&nbsp;&nbsp;&nbsp;&nbsp;**3.3** Calcula percentuais<br/>**4.** Sistema identifica vencedores por cargo<br/>**5.** Sistema gera relatório de apuração<br/>**6.** Administrador valida resultados<br/>**7.** Sistema finaliza apuração<br/>**8.** Sistema disponibiliza resultados oficiais |
+| **Fluxos Alternativos** | **FA1 - UEv pendente (passo 2):**<br/>&nbsp;&nbsp;&nbsp;&nbsp;**2.1** Sistema lista UEvs que não transmitiram<br/>&nbsp;&nbsp;&nbsp;&nbsp;**2.2** Administrador decide se prossegue<br/>&nbsp;&nbsp;&nbsp;&nbsp;**2.3** Se sim, continua no passo 3 |
 | **Fluxos de Exceção** | **FE1 - Inconsistência nos dados:**<br/>&nbsp;&nbsp;&nbsp;&nbsp;Sistema reporta divergências para análise |
 | **Regras de Negócio** | • RN19: Todos os votos devem ser contabilizados<br/>• RN20: Empates devem ser sinalizados |
 
 ---
 
-## **UC7 - Exportar Relatórios Relatórios**
+## **UC7 - Exportar Relatórios**
 
 | **Campo** | **Descrição** |
 |-----------|---------------|

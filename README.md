@@ -31,3 +31,42 @@
 ### Diagrama 7 - Exportar Relatórios
 
 <img width="589" height="660" alt="image" src="https://github.com/user-attachments/assets/dff54b1b-9386-40dc-aa37-20fd5e3f3937" />
+
+## Diagrama de Estados
+
+### Diagrama 1 - Candidato
+
+![Diagrama de Estado - Candidato (copy 1)](https://github.com/user-attachments/assets/0012179a-6206-475b-9248-45c2b8df57d5)
+
+### Diagrama 2 - Cédula
+
+![Diagrama de Estado - Cédula](https://github.com/user-attachments/assets/67f32888-97e3-46a2-9281-cbf84be751f9)
+
+### Diagrama 3 - Eleitor
+
+![Diagrama de Estado - Eleitor](https://github.com/user-attachments/assets/dbb4b9fd-b980-431d-906d-3db2388ee204)
+
+### Diagrama 4 - Eleição
+
+![Diagrama de Estado - Eleição](https://github.com/user-attachments/assets/3eebf3b1-5c84-4532-8c0e-307f5d516e9e)
+
+### Diagrama 5 - Objeto Sincronização
+
+![Diagrama de Estado - Objeto de Sincronização](https://github.com/user-attachments/assets/1bdb3722-7e5d-4fdd-9bcb-4f9220c8c084)
+
+### Diagrama 6 - Relatório
+
+![Diagrama de Estado - Relatório](https://github.com/user-attachments/assets/8e7f7747-023b-4854-8f5b-5c0031adce11)
+
+### Diagrama 7 - UEg
+
+![Diagrama de Estado - UEg](https://github.com/user-attachments/assets/a0285af1-423b-466c-8184-4dbdd8ddcf1d)
+
+### Diagrama 8 - UEv
+
+![Diagrama de Estado - UEv](https://github.com/user-attachments/assets/6b6fede3-d7cb-4764-a2b6-fda27748e1e9)
+
+### Diagrama 9 - Voto
+
+![Diagrama de Estado - Voto](https://github.com/user-attachments/assets/6d503e75-96fb-488d-9a4a-51c38607e3a2)
+

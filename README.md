@@ -226,3 +226,16 @@ graph LR
 
 ![Diagrama de Estado - Voto](https://github.com/user-attachments/assets/6d503e75-96fb-488d-9a4a-51c38607e3a2)
 
+## Diagramas de Atividade
+
+### Diagrama 1 - Processo de Eleição Completo
+
+![Uploading 01-processo-eleicao-completo.svg…]()
+
+### Diagrama 2 - Cadastro de Candidatos
+
+![02-cadastro-candidatos](https://github.com/user-attachments/assets/2b1fd8ee-c82e-4105-b4e6-d00e86a9413b)
+
+### Diagrama 3 - Apuração de Resultados
+
+![03-apuracao-resultados](https://github.com/user-attachments/assets/edb0cce7-704b-427c-aaba-f685cc996cd9)

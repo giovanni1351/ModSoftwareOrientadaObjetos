@@ -230,7 +230,7 @@ graph LR
 
 ### Diagrama 1 - Processo de Eleição Completo
 
-![Uploading 01-processo-eleicao-completo.svg…]()
+![01-processo-eleicao-completo](https://github.com/user-attachments/assets/e15c0560-aa1a-4080-95d9-5443ebcea90c)
 
 ### Diagrama 2 - Cadastro de Candidatos
 
